@@ -1,0 +1,111 @@
+get_sku_list:   #采购计划列表
+  url: "/wms/inventory/page"
+  bar: {"pageIndex":1,"pageSize":20,"isLock":"","locationCode":"","productName":"","spus":"","skuCodes":"","plmCategoryIds":[],"warehouseId":8}
+
+add_plan:   #添加采购计划
+  url: "/purchase/purchase_plan"
+  bar: {"warehouseId":25,"skuCodes":[{"skuCode":"IicC2105260014001","quantity":"1"}]}
+
+purchase_plan_list:   #添加采购计划
+  url: "/purchase/purchase_plan/page?pageIndex=1&pageSize=20&warehouseId={}&id=&purchaserName={}&createTimeStart={}&createTimeEnd={}"
+  bar: {}
+
+get_purchase_buyer:   #获取采购员
+  url: "/user/user/page-list?pageIndex=1&pageSize=20&userAccount={}&isUserGroupJump=false"
+  bar: {}
+
+get_plan_item_ids:   #获取采购员
+  url: "/purchase/purchase-plan-item/page?pageIndex=1&pageSize=10&planId={}&purchasePlanItemDataViewEnum=SUPPLIER"
+  bar: {}
+
+count_create_offline_purchase_order:   #获取采购员
+  url: "/purchase/purchase-plan-item/count-create-offline-purchase-order"
+  bar: {"purchaseType":2,"fastOrderFlag":true,"shippingAddressId":117,"planItemIds":[4826]}
+
+get_shipping_address:   #获取采购员
+  url: "/purchase/shipping_address/getAllByPurchasePlanIdAndOrderPlatform?purchasePlanId={}&orderPlatform=0"
+  bar: {}
+
+edit_purchase_price:   #获取采购员
+  url: "/purchase/purchase-plan-item/batch/purchase-price"
+  bar: {"ids":[4833],"realPrice":"1.11","priceChangeReason":"自动化测试"}
+
+edit_purchase_quantity:   #获取采购员
+  url: "/purchase/purchase-plan-item/batch/purchase-quantity"
+  bar: {"ids":[4833],"realPurchaseQuantity":"10","quantityChangeReason":"自动化测试"}
+
+edit_purchase_supplier:   #获取采购员
+  url: "/purchase/purchase-plan-item/batch/supplier"
+  bar: [{"id":4827,"price":"1.11","purchaseRatioQtyOwner":1,"purchaseRatioQtySupplier":1,"purchaseType":0,"supplierId":67183,"supplierChangeReason":"测试"}]
+
+get_supplier_list:   #获取采购员
+  url: "/purchase/supplier/basic-list?pageIndex=1&pageSize=50&orderBy=id&name={}&orderDirect=desc"
+  bar: {}
+
+batch_offline_purchase_order:   #获取采购员
+  url: "/purchase/purchase-plan-item/batch-create-offline-purchase-order"
+  bar: {"batchNo":"16296996625142567","pageSize":1,"pageIndex":1,"purchaseType":2,"fastOrderFlag":true,"shippingAddressId":117}
+
+purchase_order_list:   #获取采购员
+  url: "/purchase/purchase_order/page?purchaseOrderStatus={}&warehouseId={}&supplierNames={}&supplierSource=ERP&pageIndex=1&pageSize=20"
+  bar: {}
+
+submit_wait_audit_info:   #获取采购员
+  url: "/purchase/purchase_order/submit-wait-audit-info"
+  bar: [3025]
+
+audit_pass:   #获取采购员
+  url: "/purchase/purchase_order/audit-pass"
+  bar: [3025]
+
+purchase_logistics:   #获取采购员
+  url: "/purchase/logistics"
+  bar: {"logisticsInfos":[{"logisticsCompanyName":"顺丰","logisticsBillNumber":"12454"}],"purchaseOrderId":3025}
+
+get_unpack_info:   #获取采购员
+  url: "/wms/unpack/get-unpack-info?warehouseId={}&searchNumber={}&searchType=PURCHASE_ORDER_NUMBER"
+  bar: {}
+
+wms_unpack:   #获取采购员
+  url: "/wms/unpack"
+  bar: {"purchaseOrderId":330,"shipmentsNumber":null,"purchaseOrderItemId":1208,"unpackQuantity":"10","noPromptError":true,"searchType":"PURCHASE_ORDER_NUMBER","searchValue":"20253960"}
+
+send_to_qa_list:   #获取采购员
+  url: "/wms/unpack-send-to-qa/page"
+  bar: {"warehouseId":8,"pageIndex":1,"pageSize":20,"purchaseOrderNumber":"","shipmentsNumber":"","purchaseBatchNo":"","unpackBeginTime":"","unpackEndTime":"","skuCode":"","unpackerId":"","unpackerName":""}
+
+qa_order_list:   #获取采购员
+  url: "/qa/order"
+  bar: {"qaOperatorGroupIds":[],"qaOrderNumber":"","batchNo":"","purchaseNumber":"","shipmentsNumber":"","unpackStartTime":"","unpackEndTime":"","createStartTime":"","createEndTime":"","qaStartStartTime":"","qaStartEndTime":"","qaEndStartTime":"","qaEndEndTime":"","qaOperatorIds":[],"supplierName":"","purchaseName":"","followerName":"","skuCode":"","supplierId":"","handleStatus":"","purchaseHandlerName":"","status":"WAITING_FOR_QUALITY","pageIndex":1,"pageSize":20}
+
+generate_qa_order:   #获取采购员
+  url: "/wms/unpack-send-to-qa/generate-qa-order"
+  bar: {"purchaseBatchNos":[10880111]}
+
+get_check_data:   #获取采购员
+  url: "/qa/detail/check-data?qaOrderNumber={}&status=QUALITY_IN_PROGRESS"
+  bar: {}
+
+quality_inspection:   #获取采购员
+  url: "/qa/order"
+  bar: {"qaOperatorGroupIds":[],"qaOrderNumber":"","batchNo":"","purchaseNumber":"","shipmentsNumber":"","unpackStartTime":"","unpackEndTime":"","createStartTime":"","createEndTime":"","qaStartStartTime":"","qaStartEndTime":"","qaEndStartTime":"","qaEndEndTime":"","qaOperatorIds":[],"supplierName":"自动化专属供应商","purchaseName":"","followerName":"","skuCode":"","supplierId":"","handleStatus":"","purchaseHandlerName":"","status":"QUALITY_IN_PROGRESS","pageIndex":1,"pageSize":20}
+
+start_check:   #获取采购员
+  url: "/qa/detail/start-check"
+  bar: {"qaOrderNumber":"ZJ210824000068"}
+
+quality_inspection_review_list:   #获取采购员
+  url: "/qa/order"
+  bar: {"qaOperatorGroupIds":[],"qaOrderNumber":"","batchNo":"","purchaseNumber":"","shipmentsNumber":"","unpackStartTime":"","unpackEndTime":"","createStartTime":"","createEndTime":"","qaStartStartTime":"","qaStartEndTime":"","qaEndStartTime":"","qaEndEndTime":"","qaOperatorIds":[],"supplierName":"自动化专属供应商","purchaseName":"","followerName":"","skuCode":"","supplierId":"","handleStatus":"","purchaseHandlerName":"","status":"WAITING_FOR_REVIEW","pageIndex":1,"pageSize":20}
+
+result_save:   #获取采购员
+  url: "/qa/detail/result-save"
+  bar: {"status":"QUALITY_IN_PROGRESS","qaOrderNumber":"ZJ210824000028","qaSizeList":[{"skuSizeName":"婴儿：0-3M","styleCategoryId":"","styleCategoryName":"","sizeImages":[],"children":[{"tolerance":"","measurement":"","sizeCodes":[{"actualValue":"","sizeId":1072,"sizeName":"妈妈：XS","valid":false,"value":"1"},{"actualValue":"","sizeId":665,"sizeName":"女童：1-2Years","valid":false,"value":"11"},{"actualValue":"","sizeId":664,"sizeName":"婴儿：110","valid":false,"value":"1"},{"actualValue":"","sizeId":663,"sizeName":"婴儿：100","valid":false,"value":"1"},{"actualValue":"","sizeId":662,"sizeName":"婴儿：92","valid":false,"value":"1"},{"actualValue":"","sizeId":661,"sizeName":"婴儿：90","valid":false,"value":"1"},{"actualValue":"","sizeId":660,"sizeName":"婴儿：86","valid":false,"value":"1"},{"actualValue":"","sizeId":659,"sizeName":"婴儿：80","valid":false,"value":"1"},{"actualValue":"","sizeId":658,"sizeName":"婴儿：74","valid":false,"value":"1"},{"actualValue":"","sizeId":657,"sizeName":"婴儿：73","valid":false,"value":"1"},{"actualValue":"","sizeId":656,"sizeName":"婴儿：70","valid":false,"value":"1"},{"actualValue":"","sizeId":655,"sizeName":"婴儿：68","valid":false,"value":"1"},{"actualValue":"","sizeId":654,"sizeName":"婴儿：66","valid":false,"value":"1"},{"actualValue":"","sizeId":653,"sizeName":"婴儿：62","valid":false,"value":"1"},{"actualValue":"","sizeId":652,"sizeName":"婴儿：60","valid":false,"value":"1"},{"actualValue":"","sizeId":651,"sizeName":"婴儿：52","valid":false,"value":"1"},{"actualValue":"","sizeId":650,"sizeName":"婴儿：59","valid":false,"value":"1"},{"actualValue":"","sizeId":649,"sizeName":"婴儿：18-24M","valid":false,"value":"1"},{"actualValue":"","sizeId":648,"sizeName":"婴儿：12-18M","valid":false,"value":"1"},{"actualValue":"","sizeId":647,"sizeName":"婴儿：9-12M","valid":false,"value":"1"},{"actualValue":"","sizeId":646,"sizeName":"婴儿：6-9M","valid":false,"value":"1"},{"actualValue":"","sizeId":645,"sizeName":"婴儿：3-6M","valid":false,"value":"1"},{"actualValue":"","sizeId":644,"sizeName":"婴儿：0-3M","valid":true,"value":"1"},{"actualValue":"","sizeId":643,"sizeName":"爸爸：XXXL","valid":false,"value":"1"},{"actualValue":"","sizeId":642,"sizeName":"爸爸：XXL","valid":false,"value":"1"},{"actualValue":"","sizeId":641,"sizeName":"爸爸：XL","valid":false,"value":"1"},{"actualValue":"","sizeId":640,"sizeName":"爸爸：L","valid":false,"value":"1"},{"actualValue":"","sizeId":639,"sizeName":"爸爸：M","valid":false,"value":"1"},{"actualValue":"","sizeId":638,"sizeName":"妈妈：XXL","valid":false,"value":"1"},{"actualValue":"","sizeId":637,"sizeName":"妈妈：XL","valid":false,"value":"1"},{"actualValue":"","sizeId":636,"sizeName":"妈妈：L","valid":false,"value":"1"},{"actualValue":"","sizeId":635,"sizeName":"妈妈：M","valid":false,"value":"1"},{"actualValue":"","sizeId":634,"sizeName":"妈妈：S","valid":false,"value":"1"},{"actualValue":"","sizeId":712,"sizeName":"男童：170","valid":false,"value":"1"},{"actualValue":"","sizeId":710,"sizeName":"男童：150","valid":false,"value":"1"},{"actualValue":"","sizeId":708,"sizeName":"男童：130","valid":false,"value":"1"},{"actualValue":"","sizeId":706,"sizeName":"男童：110","valid":false,"value":"1"},{"actualValue":"","sizeId":704,"sizeName":"男童：90","valid":false,"value":"1"},{"actualValue":"","sizeId":702,"sizeName":"男童：14-15Years","valid":false,"value":"1"},{"actualValue":"","sizeId":700,"sizeName":"男童：12-13Years","valid":false,"value":"1"},{"actualValue":"","sizeId":698,"sizeName":"男童：10-11Years","valid":false,"value":"1"},{"actualValue":"","sizeId":696,"sizeName":"男童：8-9Years","valid":false,"value":"1"},{"actualValue":"","sizeId":694,"sizeName":"男童：6-7Years","valid":false,"value":"1"},{"actualValue":"","sizeId":692,"sizeName":"男童：4-5Years","valid":false,"value":"1"},{"actualValue":"","sizeId":690,"sizeName":"男童：2-3Years","valid":false,"value":"1"},{"actualValue":"","sizeId":688,"sizeName":"女童：170","valid":false,"value":"1"},{"actualValue":"","sizeId":686,"sizeName":"女童：150","valid":false,"value":"1"},{"actualValue":"","sizeId":684,"sizeName":"女童：130","valid":false,"value":"1"},{"actualValue":"","sizeId":682,"sizeName":"女童：110","valid":false,"value":"1"},{"actualValue":"","sizeId":680,"sizeName":"女童：90","valid":false,"value":"1"},{"actualValue":"","sizeId":678,"sizeName":"女童：14-15Years","valid":false,"value":"1"},{"actualValue":"","sizeId":676,"sizeName":"女童：12-13Years","valid":false,"value":"1"},{"actualValue":"","sizeId":674,"sizeName":"女童：10-11Years","valid":false,"value":"1"},{"actualValue":"","sizeId":672,"sizeName":"女童：8-9Years","valid":false,"value":"1"},{"actualValue":"","sizeId":670,"sizeName":"女童：6-7Years","valid":false,"value":"1"},{"actualValue":"","sizeId":668,"sizeName":"女童：4-5Years","valid":false,"value":"1"},{"actualValue":"","sizeId":666,"sizeName":"女童：2-3Years","valid":false,"value":"1"},{"actualValue":"","sizeId":667,"sizeName":"女童：3-4Years","valid":false,"value":"1"},{"actualValue":"","sizeId":669,"sizeName":"女童：5-6Years","valid":false,"value":"1"},{"actualValue":"","sizeId":671,"sizeName":"女童：7-8Years","valid":false,"value":"1"},{"actualValue":"","sizeId":673,"sizeName":"女童：9-10Years","valid":false,"value":"1"},{"actualValue":"","sizeId":675,"sizeName":"女童：11-12Years","valid":false,"value":"1"},{"actualValue":"","sizeId":677,"sizeName":"女童：13-14Years","valid":false,"value":"1"},{"actualValue":"","sizeId":679,"sizeName":"女童：80","valid":false,"value":"1"},{"actualValue":"","sizeId":681,"sizeName":"女童：100","valid":false,"value":"1"},{"actualValue":"","sizeId":683,"sizeName":"女童：120","valid":false,"value":"1"},{"actualValue":"","sizeId":685,"sizeName":"女童：140","valid":false,"value":"1"},{"actualValue":"","sizeId":687,"sizeName":"女童：160","valid":false,"value":"1"},{"actualValue":"","sizeId":689,"sizeName":"男童：1-2Years","valid":false,"value":"1"},{"actualValue":"","sizeId":691,"sizeName":"男童：3-4Years","valid":false,"value":"1"},{"actualValue":"","sizeId":693,"sizeName":"男童：5-6Years","valid":false,"value":"1"},{"actualValue":"","sizeId":695,"sizeName":"男童：7-8Years","valid":false,"value":"1"},{"actualValue":"","sizeId":697,"sizeName":"男童：9-10Years","valid":false,"value":"1"},{"actualValue":"","sizeId":699,"sizeName":"男童：11-12Years","valid":false,"value":"1"},{"actualValue":"","sizeId":701,"sizeName":"男童：13-14Years","valid":false,"value":"1"},{"actualValue":"","sizeId":703,"sizeName":"男童：80","valid":false,"value":"1"},{"actualValue":"","sizeId":705,"sizeName":"男童：100","valid":false,"value":"1"},{"actualValue":"","sizeId":707,"sizeName":"男童：120","valid":false,"value":"1"},{"actualValue":"","sizeId":709,"sizeName":"男童：140","valid":false,"value":"1"},{"actualValue":"","sizeId":711,"sizeName":"男童：160","valid":false,"value":"1"},{"actualValue":"","sizeId":1071,"sizeName":"爸爸：S","valid":false,"value":"1"}],"sizePartId":713,"sizePartName":"肩宽"}]}],"imperfectQuantity":10,"concessionQuantity":"","concessionReason":"","result":"UNQUALIFIED","standardQuantity":"","qaBlemishList":[{"blemishId":854,"blemishCode":"P000851","blemishImages":[],"blemishLevel":"SECONDARY","blemishLocation":"未对齐，毛边","blemishName":"螺纹","blemishQuantity":"3","blemishs":[]}]}
+
+result_save_nopass:   #获取采购员
+  url: "/qa/detail/result-save"
+  bar: {"status":"QUALITY_IN_PROGRESS","qaOrderNumber":"ZJ210824000054","qaSizeList":[{"skuSizeName":"婴儿：80","styleCategoryId":"","styleCategoryName":"","sizeImages":[],"children":[{"tolerance":"","measurement":"","sizeCodes":[{"actualValue":"","sizeId":1072,"sizeName":"妈妈：XS","valid":false,"value":"1"},{"actualValue":"","sizeId":665,"sizeName":"女童：1-2Years","valid":false,"value":"11"},{"actualValue":"","sizeId":664,"sizeName":"婴儿：110","valid":false,"value":"1"},{"actualValue":"","sizeId":663,"sizeName":"婴儿：100","valid":false,"value":"1"},{"actualValue":"","sizeId":662,"sizeName":"婴儿：92","valid":false,"value":"1"},{"actualValue":"","sizeId":661,"sizeName":"婴儿：90","valid":false,"value":"1"},{"actualValue":"","sizeId":660,"sizeName":"婴儿：86","valid":false,"value":"1"},{"actualValue":"","sizeId":659,"sizeName":"婴儿：80","valid":true,"value":"1"},{"actualValue":"","sizeId":658,"sizeName":"婴儿：74","valid":false,"value":"1"},{"actualValue":"","sizeId":657,"sizeName":"婴儿：73","valid":false,"value":"1"},{"actualValue":"","sizeId":656,"sizeName":"婴儿：70","valid":false,"value":"1"},{"actualValue":"","sizeId":655,"sizeName":"婴儿：68","valid":false,"value":"1"},{"actualValue":"","sizeId":654,"sizeName":"婴儿：66","valid":false,"value":"1"},{"actualValue":"","sizeId":653,"sizeName":"婴儿：62","valid":false,"value":"1"},{"actualValue":"","sizeId":652,"sizeName":"婴儿：60","valid":false,"value":"1"},{"actualValue":"","sizeId":651,"sizeName":"婴儿：52","valid":false,"value":"1"},{"actualValue":"","sizeId":650,"sizeName":"婴儿：59","valid":false,"value":"1"},{"actualValue":"","sizeId":649,"sizeName":"婴儿：18-24M","valid":false,"value":"1"},{"actualValue":"","sizeId":648,"sizeName":"婴儿：12-18M","valid":false,"value":"1"},{"actualValue":"","sizeId":647,"sizeName":"婴儿：9-12M","valid":false,"value":"1"},{"actualValue":"","sizeId":646,"sizeName":"婴儿：6-9M","valid":false,"value":"1"},{"actualValue":"","sizeId":645,"sizeName":"婴儿：3-6M","valid":false,"value":"1"},{"actualValue":"","sizeId":644,"sizeName":"婴儿：0-3M","valid":false,"value":"1"},{"actualValue":"","sizeId":643,"sizeName":"爸爸：XXXL","valid":false,"value":"1"},{"actualValue":"","sizeId":642,"sizeName":"爸爸：XXL","valid":false,"value":"1"},{"actualValue":"","sizeId":641,"sizeName":"爸爸：XL","valid":false,"value":"1"},{"actualValue":"","sizeId":640,"sizeName":"爸爸：L","valid":false,"value":"1"},{"actualValue":"","sizeId":639,"sizeName":"爸爸：M","valid":false,"value":"1"},{"actualValue":"","sizeId":638,"sizeName":"妈妈：XXL","valid":false,"value":"1"},{"actualValue":"","sizeId":637,"sizeName":"妈妈：XL","valid":false,"value":"1"},{"actualValue":"","sizeId":636,"sizeName":"妈妈：L","valid":false,"value":"1"},{"actualValue":"","sizeId":635,"sizeName":"妈妈：M","valid":false,"value":"1"},{"actualValue":"","sizeId":634,"sizeName":"妈妈：S","valid":false,"value":"1"},{"actualValue":"","sizeId":712,"sizeName":"男童：170","valid":false,"value":"1"},{"actualValue":"","sizeId":710,"sizeName":"男童：150","valid":false,"value":"1"},{"actualValue":"","sizeId":708,"sizeName":"男童：130","valid":false,"value":"1"},{"actualValue":"","sizeId":706,"sizeName":"男童：110","valid":false,"value":"1"},{"actualValue":"","sizeId":704,"sizeName":"男童：90","valid":false,"value":"1"},{"actualValue":"","sizeId":702,"sizeName":"男童：14-15Years","valid":false,"value":"1"},{"actualValue":"","sizeId":700,"sizeName":"男童：12-13Years","valid":false,"value":"1"},{"actualValue":"","sizeId":698,"sizeName":"男童：10-11Years","valid":false,"value":"1"},{"actualValue":"","sizeId":696,"sizeName":"男童：8-9Years","valid":false,"value":"1"},{"actualValue":"","sizeId":694,"sizeName":"男童：6-7Years","valid":false,"value":"1"},{"actualValue":"","sizeId":692,"sizeName":"男童：4-5Years","valid":false,"value":"1"},{"actualValue":"","sizeId":690,"sizeName":"男童：2-3Years","valid":false,"value":"1"},{"actualValue":"","sizeId":688,"sizeName":"女童：170","valid":false,"value":"1"},{"actualValue":"","sizeId":686,"sizeName":"女童：150","valid":false,"value":"1"},{"actualValue":"","sizeId":684,"sizeName":"女童：130","valid":false,"value":"1"},{"actualValue":"","sizeId":682,"sizeName":"女童：110","valid":false,"value":"1"},{"actualValue":"","sizeId":680,"sizeName":"女童：90","valid":false,"value":"1"},{"actualValue":"","sizeId":678,"sizeName":"女童：14-15Years","valid":false,"value":"1"},{"actualValue":"","sizeId":676,"sizeName":"女童：12-13Years","valid":false,"value":"1"},{"actualValue":"","sizeId":674,"sizeName":"女童：10-11Years","valid":false,"value":"1"},{"actualValue":"","sizeId":672,"sizeName":"女童：8-9Years","valid":false,"value":"1"},{"actualValue":"","sizeId":670,"sizeName":"女童：6-7Years","valid":false,"value":"1"},{"actualValue":"","sizeId":668,"sizeName":"女童：4-5Years","valid":false,"value":"1"},{"actualValue":"","sizeId":666,"sizeName":"女童：2-3Years","valid":false,"value":"1"},{"actualValue":"","sizeId":667,"sizeName":"女童：3-4Years","valid":false,"value":"1"},{"actualValue":"","sizeId":669,"sizeName":"女童：5-6Years","valid":false,"value":"1"},{"actualValue":"","sizeId":671,"sizeName":"女童：7-8Years","valid":false,"value":"1"},{"actualValue":"","sizeId":673,"sizeName":"女童：9-10Years","valid":false,"value":"1"},{"actualValue":"","sizeId":675,"sizeName":"女童：11-12Years","valid":false,"value":"1"},{"actualValue":"","sizeId":677,"sizeName":"女童：13-14Years","valid":false,"value":"1"},{"actualValue":"","sizeId":679,"sizeName":"女童：80","valid":false,"value":"1"},{"actualValue":"","sizeId":681,"sizeName":"女童：100","valid":false,"value":"1"},{"actualValue":"","sizeId":683,"sizeName":"女童：120","valid":false,"value":"1"},{"actualValue":"","sizeId":685,"sizeName":"女童：140","valid":false,"value":"1"},{"actualValue":"","sizeId":687,"sizeName":"女童：160","valid":false,"value":"1"},{"actualValue":"","sizeId":689,"sizeName":"男童：1-2Years","valid":false,"value":"1"},{"actualValue":"","sizeId":691,"sizeName":"男童：3-4Years","valid":false,"value":"1"},{"actualValue":"","sizeId":693,"sizeName":"男童：5-6Years","valid":false,"value":"1"},{"actualValue":"","sizeId":695,"sizeName":"男童：7-8Years","valid":false,"value":"1"},{"actualValue":"","sizeId":697,"sizeName":"男童：9-10Years","valid":false,"value":"1"},{"actualValue":"","sizeId":699,"sizeName":"男童：11-12Years","valid":false,"value":"1"},{"actualValue":"","sizeId":701,"sizeName":"男童：13-14Years","valid":false,"value":"1"},{"actualValue":"","sizeId":703,"sizeName":"男童：80","valid":false,"value":"1"},{"actualValue":"","sizeId":705,"sizeName":"男童：100","valid":false,"value":"1"},{"actualValue":"","sizeId":707,"sizeName":"男童：120","valid":false,"value":"1"},{"actualValue":"","sizeId":709,"sizeName":"男童：140","valid":false,"value":"1"},{"actualValue":"","sizeId":711,"sizeName":"男童：160","valid":false,"value":"1"},{"actualValue":"","sizeId":1071,"sizeName":"爸爸：S","valid":false,"value":"1"}],"sizePartId":713,"sizePartName":"肩宽"}]}],"imperfectQuantity":"1","concessionQuantity":null,"concessionReason":null,"result":"QUALIFIED","standardQuantity":10,"qaBlemishList":[{"blemishId":853,"blemishCode":"P000850","blemishImages":[{"url":"//sdlk-erp-file-beta.oss-cn-shenzhen.aliyuncs.com/quality/1629855540-116bd1ce-3f29-4025-a73f-7c70e28c20d8.jpg"}],"blemishLevel":"PRIMARY","blemishLocation":"袖口不平","blemishName":"袖口","blemishQuantity":"3","blemishs":[]}]}
+
+imperfect_order:   #获取采购员
+  url: "/qa/imperfect-order?qaOrderNumber={}&pageIndex=1&pageSize=20"
+  bar: {}

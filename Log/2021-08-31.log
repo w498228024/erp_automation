@@ -1,0 +1,129 @@
+时间:2021-08-31 16:41:00,477  方法:_new_conn  级别:DEBUG  消息:Starting new HTTP connection (1): erp-web.qa4.erp.starlinke.tech:80 行数: 204 文件名:connectionpool.py
+时间:2021-08-31 16:41:00,477  方法:_new_conn  级别:DEBUG  消息:Starting new HTTP connection (1): erp-web.qa4.erp.starlinke.tech:80 行数: 204 文件名:connectionpool.py
+时间:2021-08-31 16:41:00,477  方法:_new_conn  级别:DEBUG  消息:Starting new HTTP connection (1): erp-web.qa4.erp.starlinke.tech:80 行数: 204 文件名:connectionpool.py
+时间:2021-08-31 16:41:00,865  方法:_make_request  级别:DEBUG  消息:http://erp-web.qa4.erp.starlinke.tech:80 "POST /api/v1.0/user/jwt/token HTTP/1.1" 200 None 行数: 391 文件名:connectionpool.py
+时间:2021-08-31 16:41:00,865  方法:_make_request  级别:DEBUG  消息:http://erp-web.qa4.erp.starlinke.tech:80 "POST /api/v1.0/user/jwt/token HTTP/1.1" 200 None 行数: 391 文件名:connectionpool.py
+时间:2021-08-31 16:41:00,865  方法:_make_request  级别:DEBUG  消息:http://erp-web.qa4.erp.starlinke.tech:80 "POST /api/v1.0/user/jwt/token HTTP/1.1" 200 None 行数: 391 文件名:connectionpool.py
+时间:2021-08-31 16:41:01,116  方法:info  级别:INFO  消息:开始清空文件..... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,116  方法:info  级别:INFO  消息:开始清空文件..... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,116  方法:info  级别:INFO  消息:开始清空文件..... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,131  方法:info  级别:INFO  消息:清空文件结束..... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,131  方法:info  级别:INFO  消息:清空文件结束..... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,131  方法:info  级别:INFO  消息:清空文件结束..... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,165  方法:info  级别:INFO  消息:表创建及清空前置相关工作运行成功.... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,165  方法:info  级别:INFO  消息:表创建及清空前置相关工作运行成功.... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,165  方法:info  级别:INFO  消息:表创建及清空前置相关工作运行成功.... 行数: 53 文件名:Log.py
+时间:2021-08-31 16:41:01,276  方法:<module>  级别:DEBUG  消息:Not in REPL -> leaving logger event level as is. 行数: 24 文件名:factory.py
+时间:2021-08-31 16:41:01,276  方法:<module>  级别:DEBUG  消息:Not in REPL -> leaving logger event level as is. 行数: 24 文件名:factory.py
+时间:2021-08-31 16:41:01,276  方法:<module>  级别:DEBUG  消息:Not in REPL -> leaving logger event level as is. 行数: 24 文件名:factory.py
+时间:2021-08-31 16:41:01,362  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.address`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,362  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.address`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,362  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.address`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,366  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.address` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,366  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.address` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,366  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.address` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,367  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.automotive`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,367  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.automotive`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,367  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.automotive`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,369  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,369  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,369  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,370  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.bank`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,370  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.bank`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,370  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.bank`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,371  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,371  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,371  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,372  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.barcode` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,372  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.barcode` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,372  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.barcode` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,372  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.color`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,372  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.color`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,372  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.color`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,374  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,374  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,374  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,375  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.company`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,375  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.company`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,375  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.company`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,377  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.company` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,377  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.company` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,377  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.company` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.credit_card` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.credit_card` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.credit_card` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.currency` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.currency` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.currency` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.date_time`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.date_time`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,378  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.date_time`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,380  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,380  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,380  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,381  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,381  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,381  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,381  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.geo`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,381  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.geo`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,381  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.geo`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,382  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,382  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,382  方法:_find_provider_class  级别:DEBUG  消息:Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider. 行数: 104 文件名:factory.py
+时间:2021-08-31 16:41:01,382  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.internet`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,382  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.internet`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,382  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.internet`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,385  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.internet` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,385  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.internet` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,385  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.internet` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,386  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,386  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,386  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,387  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.job`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,387  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.job`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,387  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.job`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,390  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.job` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,390  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.job` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,390  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.job` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,391  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.lorem`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,391  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.lorem`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,391  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.lorem`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,393  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.lorem` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,393  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.lorem` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,393  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.lorem` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,394  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.misc` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,394  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.misc` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,394  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.misc` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,394  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.person`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,394  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.person`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,394  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.person`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,399  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.person` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,399  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.person` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,399  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.person` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,400  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.phone_number`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,400  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.phone_number`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,400  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.phone_number`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,405  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.phone_number` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,405  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.phone_number` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,405  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.phone_number` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,406  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,406  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,406  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,407  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,407  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,407  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,407  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.ssn`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,407  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.ssn`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,407  方法:_find_provider_class  级别:DEBUG  消息:Looking for locale `zh_CN` in provider `faker.providers.ssn`. 行数: 96 文件名:factory.py
+时间:2021-08-31 16:41:01,411  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.ssn` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,411  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.ssn` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,411  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.ssn` has been localized to `zh_CN`. 行数: 110 文件名:factory.py
+时间:2021-08-31 16:41:01,412  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,412  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:01,412  方法:_find_provider_class  级别:DEBUG  消息:Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider. 行数: 121 文件名:factory.py
+时间:2021-08-31 16:41:03,044  方法:_new_conn  级别:DEBUG  消息:Starting new HTTP connection (1): erp-web.qa4.erp.starlinke.tech:80 行数: 204 文件名:connectionpool.py
+时间:2021-08-31 16:41:03,044  方法:_new_conn  级别:DEBUG  消息:Starting new HTTP connection (1): erp-web.qa4.erp.starlinke.tech:80 行数: 204 文件名:connectionpool.py
+时间:2021-08-31 16:41:03,044  方法:_new_conn  级别:DEBUG  消息:Starting new HTTP connection (1): erp-web.qa4.erp.starlinke.tech:80 行数: 204 文件名:connectionpool.py
+时间:2021-08-31 16:41:03,061  方法:_make_request  级别:DEBUG  消息:http://erp-web.qa4.erp.starlinke.tech:80 "GET /api/v1.0/wms/warehouse?pageIndex=1&pageSize=100 HTTP/1.1" 500 131 行数: 391 文件名:connectionpool.py
+时间:2021-08-31 16:41:03,061  方法:_make_request  级别:DEBUG  消息:http://erp-web.qa4.erp.starlinke.tech:80 "GET /api/v1.0/wms/warehouse?pageIndex=1&pageSize=100 HTTP/1.1" 500 131 行数: 391 文件名:connectionpool.py
+时间:2021-08-31 16:41:03,061  方法:_make_request  级别:DEBUG  消息:http://erp-web.qa4.erp.starlinke.tech:80 "GET /api/v1.0/wms/warehouse?pageIndex=1&pageSize=100 HTTP/1.1" 500 131 行数: 391 文件名:connectionpool.py
